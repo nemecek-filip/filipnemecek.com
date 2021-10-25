@@ -16,10 +16,10 @@
 
         body {
             background-color: hsla(222, 60%, 4%, 1);
-            display: flex;
-            color: whitesmoke;
+            display: grid;
+            place-items: center;
+            color: hsla(0, 0%, 91%, 1);
             margin: 0;
-            padding: 0;
         }
 
         .content {
@@ -27,10 +27,11 @@
             align-content: center;
             align-items: center;
             justify-content: center;
-            height: 100%;
+            margin-top: 10px;
             flex-direction: column;
             margin-left: auto;
             margin-right: auto;
+
         }
 
         .bio {
@@ -73,15 +74,16 @@
         <img class="photo" src="photo.png" alt="">
     </div>
     <div class="bio">
-        <h3>Filip Němeček</h3>
-        <p style="opacity: 0.8">iOS dev, Django enthusiast, builder</p>
-        <h4><a href="https://nemecek.be" target="_blank">Blog</a></h4>
-        <h4><a href="https://twitter.com/nemecek_f" target="_blank">@nemecek_f</a></h4>
+        <h3 style="margin-bottom: 5px">Filip Němeček</h3>
+        <p style="opacity: 0.8; margin-top: 5px">iOS dev, Django enthusiast, builder</p>
+        <h4><a href="https://nemecek.be" target="_blank">Blog</a> about iOS, Django & more</h4>
+        <h4>On Twitter as <a href="https://twitter.com/nemecek_f" target="_blank">@nemecek_f</a></h4>
 
         <span class="bottom-separator"></span>
-        <h4><a href="https://impresskit.net" target="_blank">ImpressKit</a></h4>
-        <h4><a href="https://indiecatalog.app" target="_blank">Indie Apps Catalog</a></h4>
-        <h4><a href="https://iosfeeds.com" target="_blank">iOS Feeds</a></h4>
+        <h5>Projects</h5>
+        <h4><a href="https://impresskit.net" target="_blank" title="Nicely-looking press kits for mobile apps">ImpressKit</a></h4>
+        <h4><a href="https://indiecatalog.app" target="_blank" title="Catalog of apps fro Apple platforms made by indies">Indie Apps Catalog</a></h4>
+        <h4><a href="https://iosfeeds.com" target="_blank" title="Latest news from the iOS dev community">iOS Feeds</a></h4>
         <h4><a href="https://nemecek.be/chats/" target="_blank">iOS Chat</a></h4>
         <h4><a href="https://apps.apple.com/us/developer/filip-nemecek/id1291909818" target="_blank">iOS Apps</a></h4>
         <h4><a href="https://djangoblogs.com" target="_blank">Django Blogs</a></h4>
